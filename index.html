@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet"> 
+<style>
+body{font-family:'Source Sans Pro',Arial,sans-serif;margin:0}.wrapper{display:flex;justify-content:center;flex-direction:column}header{display:flex;flex-direction:column;justify-content:center;align-items:center}.avatar{display:flex;justify-content:center}main{display:flex;flex-direction:column}.about-me{margin:15px 0}.teacher{display:flex;padding:200px 0;justify-content:center;align-items:center;flex-direction:column}.baldej{background:url(https://i.postimg.cc/NjPzVtKC/ZOXI2-Xdi-Cb-M.jpg);width:100vw;height:900px;display:flex;justfiy-content:center;align-items:center}.text{font-size:100px;color:red;animation-name:georg;animation-timing-function:ease;animation-duration:1s;animation-iteration-count:infinite}.text::after,.text::before{content:url(https://i.postimg.cc/NjPzVtKC/ZOXI2-Xdi-Cb-M.jpg);animation:spin 2s linear infinite;display:inline-block}@keyframes georg{0%{color:green}50%{color:#00f}100%{color:red}}@-moz-keyframes spin{100%{-moz-transform:rotate(360deg)}}@-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg)}}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.school{padding:400px 0}.wrap{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.test{display:inline-block;padding:15px;background-color:#000;color:#fff;width:auto;font-size:42px;font-weight:700;font-family:Iosevka;margin-top:25px}.txt{font-family:Fira Sans,Arial,sans-serif;font-size:18px}section{overflow-x:none}#skillbar{position:relative;width:100%;height:auto;background:0 0}.container-skillbar{width:100%;margin:0;height:auto;overflow:none}.skillbar{position:relative;display:block;margin-bottom:1px;width:100%;background:0 0;border-top:1px solid #acbacb;border-right:6px solid #acbacb;padding-top:1px;height:20px;-webkit-transition:.4s linear;-moz-transition:.4s linear;-ms-transition:.4s linear;-o-transition:.4s linear;transition:.4s linear;-webkit-transition-property:width,background-color;-moz-transition-property:width,background-color;-ms-transition-property:width,background-color;-o-transition-property:width,background-color;transition-property:width,background-color}.skillbar-title{position:relative;top:0;left:0;width:110px;font-weight:thin;text-transform:uppercase;font-size:13px;color:rgba(0,0,0,.75);background:0 0!important}.skillbar-title span{display:block;background:0 0;padding:0;height:30px;line-height:35px}.skillbar-bar{height:15px;width:0}.skill-bar-percent{position:absolute;right:10px;top:0;font-size:11px;height:25px;line-height:23px;color:#000;color:rgba(0,0,0,.75)}
+</style>
+<script> jQuery(document).ready(function(){jQuery(".skillbar").each(function(){jQuery(this).find(".skillbar-bar").animate({width:jQuery(this).attr("data-percent")},3e3)})});</script>
+</head>
+<body>
+    
+
+<div class="wrapper">
+<header>
+  <div class="avatar">
+    <a href="https://github.com/alferov75">
+    <img src="https://sun9-59.userapi.com/c845018/v845018767/9c80e/2rKUYyeSw74.jpg?ava=1" alt="georg"></a>
+  </div>
+  <q>Все, что остается – это двигаться вперед</q> <span> - Alferov G. </span>
+</header>
+<main>
+  <div class="about-me">
+    Работаю с 1с предприятие, пишу на PHP/Laravel, Верстаю с Bootstrap4, преподаю JS/jQuery в школе JS Дгту
+  </div>
+  <section id="skillbar">
+<div class="container-skillbar">
+  
+<div class="skillbar-title" style="background:rgba(180,163,74,1);"><span>1C</span></div>
+	<div class="skillbar clearfix " data-percent="90%">
+		<div class="skillbar-bar" style="background:rgba(180,163,74,1);"></div>
+		<div class="skill-bar-percent">90%</div>
+	</div> <!-- Ende Skill Bar -->
+
+<div class="skillbar-title" style="background:rgba(180,163,74,1);"><span>PHP</span></div>
+	<div class="skillbar clearfix " data-percent="75%">
+		<div class="skillbar-bar" style="background:rgba(180,163,74,1);"></div>
+		<div class="skill-bar-percent">75%</div>
+	</div> <!-- Ende Skill Bar -->
+  
+  <div class="skillbar-title" style="background:rgba(180,163,74,1);"><span>laravel</span></div>
+	<div class="skillbar clearfix " data-percent="45%">
+		<div class="skillbar-bar" style="background:rgba(180,163,74,1);"></div>
+		<div class="skill-bar-percent">75%</div>
+	</div> <!-- Ende Skill Bar -->
+
+ <div class="skillbar-title" style="background:rgba(180,163,74,1);"><span>BOOTSTRAP</span></div>
+	<div class="skillbar clearfix " data-percent="95%">
+		<div class="skillbar-bar" style="background:rgba(180,163,74,1);"></div>
+		<div class="skill-bar-percent">95%</div>
+	</div> <!-- Ende Skill Bar -->
+
+  
+<div class="skillbar-title" style="background:rgba(180,163,74,1);"><span>JQUERY</span></div>
+	<div class="skillbar clearfix " data-percent="70%">
+		<div class="skillbar-bar" style="background:rgba(180,163,74,1);"></div>
+		<div class="skill-bar-percent">70%</div>
+	</div> <!-- Ende Skill Bar -->
+
+  <div class="skillbar-title" style="background:rgba(180,163,74,1);"><span>MYSQL</span></div>
+  <div class="skillbar clearfix " data-percent="55%">
+		<div class="skillbar-bar" style="background:rgba(180,163,74,1);"></div>
+		<div class="skill-bar-percent">85%</div>
+    </div> 
+    
+     <div class="skillbar-title" style="background:rgba(180,163,74,1);"><span>React</span></div>
+  <div class="skillbar clearfix " data-percent="25%">
+		<div class="skillbar-bar" style="background:rgba(180,163,74,1);"></div>
+		<div class="skill-bar-percent">25%</div>
+	</div> <!-- Ende Skill Bar -->
+  
+</div><!-- Ende container Skill Bar -->
+</section>
+  
+  <div class="school">
+    
+    <div class="wrap">
+  <div class="test">Hello world</div>
+<br>
+<p class="txt">Школа JS разработки ДГТУ</p>
+<p class="txt">
+  Наши преподаватели: <br>
+  Георгий Алферов & Тимур Макбуниани
+  </p>
+  <p class="txt">
+    Изучите вместе с нами Vanilla JS <br> ES6, React, Redux, Node.JS
+  </p>
+  <span class="txt">Ваш код до нашей школы <br> </span>
+  <code> this.onFilterToggle = this.onFilterToggle.bind(this);</code>
+  <span class="txt">Ваш код после нашей школы <br></span>
+  <code>  onFilterToggle = () => {...} </code>
+
+<div class="test">
+  
+ &lt;DSTU /&gt; 
+</div>
+</div>
+    
+  </div>
+  
+  <div class="teacher">
+    я учился в дгту, а так же смотрел лекции durgasoft solutions, всем рекомендую, особенно  Mr. Durga и Mr. Nagoor Babu
+    
+    <video controls width="480">
+
+    <source src="https://raw.githubusercontent.com/Alferov75/alferov75.github.io/master/myteacher.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+    
+  </div>
+  
+  <div class="baldej">
+  <p class="text">БАЛДЕЖ</p></div>
+  
+  </main>
+
+  </div>
+</body>
+</html>
